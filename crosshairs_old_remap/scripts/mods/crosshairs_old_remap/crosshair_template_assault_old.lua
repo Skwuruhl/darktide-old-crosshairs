@@ -6,8 +6,8 @@ local template = {
 	name = "assault_old",
 }
 local SIZE = {
-	6,
 	8,
+	10,
 }
 local HALF_SIZE_X = SIZE[1] * 0.5
 local HALF_SIZE_Y = SIZE[2] * 0.5 -- use Y everywhere because of 90° texture rotation
