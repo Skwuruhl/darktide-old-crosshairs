@@ -1,5 +1,15 @@
 # Darktide Old Crosshairs
 
-crosshairs_old_remap is a plugin for Crosshair Remap
+## crosshairs_old_remap
 
-Standalone TODO
+Plugin for Crosshair Remap. Currently the old braced autogun hipfire and "ADS", along with the old shotgun crosshairs are implemented.
+
+Requires Crosshairs Fix and Crosshair Remap (Continued)
+
+Load order:
+crosshairs_fix
+crosshairs_old_remap
+crosshair_remap
+
+## Standalone
+TODO
