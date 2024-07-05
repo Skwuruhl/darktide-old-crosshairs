@@ -9,10 +9,10 @@ mod.crosshair_remap_crosshairs = {
 		}
 	},
 	{
-		name = "spray_n_pray_old",
-		template = "crosshairs_old_remap/scripts/mods/crosshairs_old_remap/crosshair_template_spray_n_pray_old",
+		name = "bfg_old",
+		template = "crosshairs_old_remap/scripts/mods/crosshairs_old_remap/crosshair_template_bfg_old",
 		localization = {
-			en = "Spray n Pray Old",
+			en = "BFG Old",
 		}
 	},
 	{
@@ -22,11 +22,25 @@ mod.crosshair_remap_crosshairs = {
 			en = "Shotgun Old",
 		}
 	},
+	{
+		name = "shotgun_slug_old",
+		template = "crosshairs_old_remap/scripts/mods/crosshairs_old_remap/crosshair_template_shotgun_slug_old",
+		localization = {
+			en = "Shotgun Slug Old",
+		}
+	},
+	{
+		name = "spray_n_pray_old",
+		template = "crosshairs_old_remap/scripts/mods/crosshairs_old_remap/crosshair_template_spray_n_pray_old",
+		localization = {
+			en = "Spray n Pray Old",
+		}
+	},
 }
 
 return {
 	mod_name = {
-		en = "Old Crosshairs (Remap Plugin)"
+		en = "Legacy Crosshairs (Remap Plugin)"
 	},
 	mod_description = {
 		en = "Pre-1.4 crosshairs for Crosshair Remap",
