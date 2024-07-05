@@ -1,4 +1,4 @@
-# Old Darktide Crosshairs
+# Darktide Old Crosshairs
 
 crosshairs_old_remap is a plugin for Crosshair Remap
 
