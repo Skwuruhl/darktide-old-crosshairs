@@ -48,10 +48,10 @@ template.create_widget_defintion = function (template, scenegraph_id)
 		Crosshair.weakspot_hit_indicator_segment("bottom_left"),
 		Crosshair.weakspot_hit_indicator_segment("top_right"),
 		Crosshair.weakspot_hit_indicator_segment("bottom_right"),
-		_crosshair_segment("top_right", math.rad(45)),
-		_crosshair_segment("top_left", math.rad(135)),
-		_crosshair_segment("bottom_left", math.rad(225)),
-		_crosshair_segment("bottom_right", math.rad(315)),
+		_crosshair_segment("top_right", math.rad(45)-TEXTURE_ROTATION),
+		_crosshair_segment("top_left", math.rad(135)-TEXTURE_ROTATION),
+		_crosshair_segment("bottom_left", math.rad(225)-TEXTURE_ROTATION),
+		_crosshair_segment("bottom_right", math.rad(315)-TEXTURE_ROTATION),
 	}, scenegraph_id)
 end
 
