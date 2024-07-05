@@ -15,6 +15,13 @@ mod.crosshair_remap_crosshairs = {
 			en = "Spray n Pray Old",
 		}
 	},
+	{
+		name = "shotgun_old",
+		template = "crosshairs_old_remap/scripts/mods/crosshairs_old_remap/crosshair_template_shotgun_old",
+		localization = {
+			en = "Shotgun Old",
+		}
+	},
 }
 
 return {
