@@ -1,8 +1,18 @@
-# Darktide Old Crosshairs
+# Legacy Darktide Crosshairs
 
 ## crosshairs_old_remap
 
-Plugin for Crosshair Remap. Currently the old braced autogun hipfire and "ADS", along with the old shotgun crosshairs are implemented.
+Plugin for Crosshair Remap. Currently implemented:
+
+* Assault
+
+* BFG
+
+* Shotgun
+
+* Shotgun Slug
+
+* Spray n Pray
 
 Requires Crosshairs Fix and Crosshair Remap (Continued)
 
