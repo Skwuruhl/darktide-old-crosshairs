@@ -12,7 +12,7 @@ local SIZE = {
 local HALF_SIZE_X = SIZE[1] * 0.5
 local HALF_SIZE_Y = SIZE[2] * 0.5 -- use Y everywhere because of 90° texture rotation
 local SPREAD_DISTANCE = 10
-local MIN_OFFSET = HALF_SIZE_Y + 2
+local MIN_OFFSET = HALF_SIZE_Y + 0
 local TEXTURE_ROTATION = math.rad(90)
 
 local function _crosshair_segment(style_id, angle)
