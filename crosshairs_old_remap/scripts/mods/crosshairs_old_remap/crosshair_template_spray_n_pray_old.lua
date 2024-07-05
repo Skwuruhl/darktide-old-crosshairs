@@ -13,6 +13,7 @@ local HALF_SIZE_X = SIZE[1] * 0.5
 local HALF_SIZE_Y = SIZE[2] * 0.5
 local SPREAD_DISTANCE = 10
 local MIN_OFFSET = HALF_SIZE_Y + 0
+local TEXTURE_ROTATION = math.rad(90)
 
 local function _crosshair_segment(style_id, angle)
 	return table.clone({
@@ -47,8 +48,8 @@ template.create_widget_defintion = function (template, scenegraph_id)
 		Crosshair.weakspot_hit_indicator_segment("bottom_left"),
 		Crosshair.weakspot_hit_indicator_segment("top_right"),
 		Crosshair.weakspot_hit_indicator_segment("bottom_right"),
-		_crosshair_segment("left", math.rad(180)),
-		_crosshair_segment("right", 0),
+		_crosshair_segment("left", math.rad(180)-TEXTURE_ROTATION),
+		_crosshair_segment("right", -TEXTURE_ROTATION),
 	}, scenegraph_id)
 end
 
@@ -68,7 +69,7 @@ template.update_function = function (parent, ui_renderer, widget, template, cros
         local styles = {style.left, style.right}
 
         for i=1,2 do
-            styles[i].offset[1], styles[i].offset[2] = crosshairs_fix.crosshair_rotation(spread_offset_x, spread_offset_y, styles[i].angle, HALF_SIZE_Y, MIN_OFFSET)
+            styles[i].offset[1], styles[i].offset[2] = crosshairs_fix.crosshair_rotation(spread_offset_x, spread_offset_y, styles[i].angle, HALF_SIZE_Y, MIN_OFFSET, TEXTURE_ROTATION)
         end
 	end
 
